@@ -1,7 +1,16 @@
+/* variaveis css sempre dentro do :root */
+:root {
+    --cor-de-fundo: rgb(255,255,0);
+    --cor-de-quadrado: rgba(255,255,0, 0.5);
+    --tamanho-de-fonte: 30px;
+    --width: 200px;
+    --height: 200px
+}
+
 body, html {
     width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-color: var(--cor-de-fundo);
 }
 
 * {
@@ -12,8 +21,8 @@ body, html {
 
 #header-id {
     background-color: blue;
-    width: 200px;
-    height: 200px;
+    width: var(--width);
+    height: var(--height);
 }
 
 /* #header-id p {
@@ -25,9 +34,10 @@ body, html {
 
 .text {
     color: brown;
-    font-size: 30px;
+    font-size: var(--tamanho-de-fonte);
     font-weight: bold;
     margin: 15px 0 15px 0;
+    text-align: center;
 }
 
 #main-id {
@@ -37,7 +47,7 @@ body, html {
 }
 
 #footer-id {
-    background: #445566;
+    background: var(--cor-de-quadrado);
     width: 200px;
     height: 200px;
 }
