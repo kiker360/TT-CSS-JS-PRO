@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #001F3A;
 }
 
 p {
@@ -23,7 +24,6 @@ p {
     }
     
     .container {
-      background: #001F3A;
       display: flex;
       flex-wrap: wrap;
     }
@@ -37,20 +37,14 @@ p {
     
     .div2 {
       background: #870093;
-      width: 350px;
-      height: 350px;
-    }
     
+    }
     .div3 {
       background: #00396B;
-      width: 350px;
-      height: 350px;
     }
     
     .div4 {
       background: #00396B;
-      width: 350px;
-      height: 350px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -58,8 +52,6 @@ p {
     
     .div5 {
       background: #FFFFFF;
-      width: 350px;
-      height: 350px;
       display: flex;
       justify-content: center;
       align-items: center;
