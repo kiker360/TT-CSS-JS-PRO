@@ -12,35 +12,45 @@ p {
     color: #BA0B0B;
     }
     
+    .container > div {
+      width: 350px;
+      height: 350px;
+      margin: 0 50px 50px 0;
+    }
+    
     .div4 > p {
       color: white;
     }
     
     .container {
       background: #001F3A;
-      display: grid;
-      grid-template-columns: 350px 350px 350px;
-      grid-template-rows: 350px 350px 350px;
-      gap: 50px 50px;
-     }
+      display: flex;
+      flex-wrap: wrap;
+    }
     
     .div1 {
       background: #FF912E;
-
+      width: 350px;
+      height: 350px;
+      
     }
     
     .div2 {
       background: #870093;
-
+      width: 350px;
+      height: 350px;
     }
     
     .div3 {
       background: #00396B;
-
+      width: 350px;
+      height: 350px;
     }
     
     .div4 {
       background: #00396B;
+      width: 350px;
+      height: 350px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -48,6 +58,8 @@ p {
     
     .div5 {
       background: #FFFFFF;
+      width: 350px;
+      height: 350px;
       display: flex;
       justify-content: center;
       align-items: center;
