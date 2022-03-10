@@ -1,0 +1,50 @@
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    color: #BA0B0B;
+    }
+    
+    .div4 > p {
+      color: white;
+    }
+    
+    .container {
+      background: #001F3A;
+      display: grid;
+      grid-template-columns: 350px 350px 350px;
+      grid-template-rows: 350px 350px 350px;
+      gap: 50px 50px;
+     }
+    
+    .div1 {
+      background: #FF912E;
+
+    }
+    
+    .div2 {
+      background: #870093;
+
+    }
+    
+    .div3 {
+      background: #00396B;
+
+    }
+    
+    .div4 {
+      background: #00396B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .div5 {
+      background: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
