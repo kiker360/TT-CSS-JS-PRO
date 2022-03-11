@@ -1,0 +1,56 @@
+/* =========== Codigo para position fixed ==================
+h1 {
+    border: 2px solid #ccc;
+    padding: 20px 20px 300px 20px;
+}
+
+p {
+    background: #e7e7e7;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+
+ .fixo {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+ } */
+
+/*  Copigo para position relative e absolute
+ div {  
+     border: 2px solid #ccc;
+     margin-top: 40px;
+     padding: 20px 20px 40px 20px;
+     position: relative;
+}
+
+/* position absolute nao respeira sua div pai, para respeitar a div pai tem que ser setada como relative 
+span {
+    background: #e7e7e7;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+ */
+
+ /* z-index  */
+ .index1 {
+     position: relative;
+     background: greenyellow;
+     top: -10px;
+     z-index: 1;
+
+ }
+
+ .index2 {
+     position: absolute;
+     top: 30px;
+     background: lightcoral;
+ }
