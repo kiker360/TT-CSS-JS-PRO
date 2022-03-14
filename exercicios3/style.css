@@ -1,0 +1,213 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 600px;
+    margin: 10px auto;
+}
+
+div {
+    background: white;
+    width: 100px;
+}
+
+/* EXEMPLO 1  */
+.exemplo1 {
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.exemplo1 div {
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+/* EXEMPLO 2 */
+.exemplo2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly   ;
+    align-items: center;
+}
+
+.exemplo2 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+} 
+
+/* EXEMPLO 3 */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exemplo3 {
+    margin-top: 10px;
+    width: 200px;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.exemplo3 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+} 
+
+.aux .boxA {
+    order: 2;
+}
+
+.aux .boxB {
+    order: 4;
+}
+
+.aux .boxC {
+    order: 3;
+}
+
+.aux .boxD {
+    order: 1;
+}
+
+
+/* EXEMPLO 4 */
+.exemplo4 {
+    padding: 10px 0 10px 10px;
+    width: 99%;
+    margin-top: 10px;
+    height: 350px;
+    background-color: blueviolet;
+}
+
+.box1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.box1 div {
+    width: 100px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.box2 div {
+    width: 100px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EXEMPLO 5 */
+.exemplo5 {
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container5 {
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container5 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+} 
+
+.container5 .boxB {
+    padding-bottom: 20px;
+}
+
+/* EXEMPLO 6 */
+.exemplo6 {
+    width: 99%;
+    margin-top: 10px;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.exemplo6 .box1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.exemplo6 .box1 div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exemplo6 .box2 {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: blueviolet;
+}
+
+.exemplo6 .box2 div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
